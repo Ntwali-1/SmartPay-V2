@@ -27,8 +27,8 @@ app.use(express.json());
 // ========================================
 // CONFIGURATION
 // ========================================
-const PORT = process.env.PORT || 9201;
-const TEAM_ID = "iot_shield_2026";
+const PORT = process.env.PORT || 9264;
+const TEAM_ID = "iot_shield";
 const MQTT_BROKER = "mqtt://157.173.101.159:1883";
 
 // MQTT Topics
